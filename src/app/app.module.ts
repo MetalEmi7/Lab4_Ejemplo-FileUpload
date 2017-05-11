@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+//agregados
+import { FileUploadModule } from 'ng2-file-upload';
+
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -12,7 +15,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    FileUploadModule
   ],
   providers: [],
   bootstrap: [AppComponent]
